@@ -3,6 +3,7 @@ import { viewClassName } from '@angular/compiler';
 import { StateService } from '../state-name-data.service';
 import { DOCUMENT} from '@angular/common';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

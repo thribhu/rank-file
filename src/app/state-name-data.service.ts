@@ -62,7 +62,7 @@ export class StateService {
 
   getStateObject () {
       const state = this.us_state_id_codes[Math.floor(Math.random() * this.us_state_id_codes.length)];
-      // console.log(state);
+      console.log(state.id);
       return state;
   }
   new_state(name) {

@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { HomeComponent } from './home/home.component';
 import { StateService } from '../app/state-name-data.service';
+import { ConnectServerIssueService } from './shared/connect-server-issue.service';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { StateService } from '../app/state-name-data.service';
   imports: [
     BrowserModule
   ],
-  providers: [StateService],
+  providers: [StateService, ConnectServerIssueService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
